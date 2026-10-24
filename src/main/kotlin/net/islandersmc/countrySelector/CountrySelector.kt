@@ -7,6 +7,8 @@ class CountrySelector : JavaPlugin() {
 
     override fun onEnable() {
         // Plugin startup logic
+        this.saveResource("config.yml", true)
+
         logger.info("Loading Country Selector...")
 
         getCommand("CountrySelect")?.setExecutor(Select(plugin = this))

@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:26.2.build.+")
+    compileOnly("net.luckperms:api:5.5")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 }
 

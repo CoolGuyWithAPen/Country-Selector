@@ -1,0 +1,4 @@
+countries:
+  canada: "<red>Ca<white>na<red>da<r>"
+  france: "<red>Fr<white>an<blue>ce<r>"
+  none: ""
